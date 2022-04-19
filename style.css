@@ -98,11 +98,23 @@ html, body{
 .wrapper{
     min-height: 200px;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
 }
 
 .item{
     flex-grow: 1;
     min-width: 300px;
     min-height: 200px;
+}
+
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.blue{
+    background-color: blue;
 }
